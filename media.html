@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media | Idris Lawal</title>
+    <meta name="description" content="A multimedia page for Idris Lawal's portfolio featuring video, audio, and iframe content." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container site-nav">
+        <a class="logo" href="index.html">
+          <span class="logo-mark"></span>
+          Idris Lawal
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="certification.html">Certification</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a class="active" href="media.html">Media</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container inner-page">
+      <section class="section-card">
+        <div class="section-intro">
+          <p class="eyebrow">Multimedia</p>
+          <h2>Media Showcase</h2>
+          <p>
+            This page highlights a few rich media elements that can be added to a portfolio website,
+            including video, audio, and an embedded external page.
+          </p>
+        </div>
+
+        <div class="media-grid">
+          <article class="media-card">
+            <h3>Video</h3>
+            <p>A short video element with controls and a poster image.</p>
+            <video controls poster="images/profile.jpg">
+              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </article>
+
+          <article class="media-card">
+            <h3>Audio</h3>
+            <p>An audio player embedded directly into the page.</p>
+            <audio controls>
+              <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+          </article>
+
+          <article class="media-card">
+            <h3>Iframe</h3>
+            <p>An external page embedded with an iframe for added context.</p>
+            <div class="media-frame">
+              <iframe
+                src="https://www.youtube.com/embed/ScMzIvxBSi4"
+                title="Embedded content example"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Idris Lawal</h3>
+          <p>Computer Science student at Northwest University, creating a thoughtful digital portfolio.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="media.html">Media</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Social</h4>
+          <ul>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Dribbble</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 Idris Lawal. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
